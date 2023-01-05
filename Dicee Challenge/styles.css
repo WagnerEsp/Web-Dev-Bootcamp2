@@ -1,10 +1,12 @@
 .container {
+  padding-top: 5vh;
   width: 70%;
   margin: auto;
   text-align: center;
 }
 
 .dice {
+  width: 46%;
   text-align: center;
   display: inline-block;
 
@@ -15,27 +17,54 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 1rem;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 4rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 30%;
+}
+
+.button_play {
+  padding: 8vh;
+  text-align: center;
+}
+
+.reloadButton {
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: yellow;
+  font-size: 2rem;
 }
 
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+@media all and (max-width: 576px) {
+
+  .container {
+    padding-top: 7vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  img {
+    width: 40%;
+  }
+  
 }
